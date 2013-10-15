@@ -3,8 +3,17 @@ layout: default
 title: Your New Jekyll Site
 ---
 
+<!-- {{ site.posts[0].excerpt }} -->
+
+<section class="home">
+	<h1>Nichole Treadway</h1>
+	<p>
+		I am a Software Engineer at <a href="http://www.goodreads.com">Goodreads</a> in San Francisco, CA.
+	</p>
+</section>
+
 <section class="home posts">
-  <h1>Blog Posts</h1>
+  <h1>posts</h1>
   {% for post in site.posts %}
     <article><time>{{ post.date | date_to_string }}</time> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></article>
   {% endfor %}
