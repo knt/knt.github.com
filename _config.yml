@@ -7,7 +7,7 @@
 
 name: code
 description: Nichole Treadway
-source: app
+source: dist/
 
 author:
   name: Nichole Treadway
