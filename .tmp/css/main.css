@@ -246,6 +246,110 @@ body {
   float: left;
 }
 
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/knt\/code\/knt_site\/app\/_scss\/main\.scss;
+  }
+
+  line {
+    font-family: \00003121;
+  }
+}
+
+.social-links ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/knt\/code\/knt_site\/app\/_scss\/main\.scss;
+  }
+
+  line {
+    font-family: \00003128;
+  }
+}
+
+.social-links li a {
+  text-indent: -9999px;
+  display: block;
+  height: 64px;
+  width: 64px;
+  background-repeat: no-repeat;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/knt\/code\/knt_site\/app\/_scss\/main\.scss;
+  }
+
+  line {
+    font-family: \00003136;
+  }
+}
+
+.social-links li a:hover {
+  background-color: yellow;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/knt\/code\/knt_site\/app\/_scss\/main\.scss;
+  }
+
+  line {
+    font-family: \00003141;
+  }
+}
+
+.social-links .github a {
+  background-image: url("/img/social_icons/github-64-black.png");
+  background-repeat: no-repeat;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/knt\/code\/knt_site\/app\/_scss\/main\.scss;
+  }
+
+  line {
+    font-family: \00003146;
+  }
+}
+
+.social-links .twitter a {
+  background-image: url("/img/social_icons/twitter-64-black.png");
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/knt\/code\/knt_site\/app\/_scss\/main\.scss;
+  }
+
+  line {
+    font-family: \00003150;
+  }
+}
+
+.social-links .instagram a {
+  background-image: url("/img/social_icons/instagram-64-black.png");
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/knt\/code\/knt_site\/app\/_scss\/main\.scss;
+  }
+
+  line {
+    font-family: \00003154;
+  }
+}
+
+.social-links .linkedin a {
+  background-image: url("/img/social_icons/linkedin-64-black.png");
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,7 +364,7 @@ body {
   }
 
   line {
-    font-family: \00003130;
+    font-family: \00003167;
   }
 }
 
@@ -278,7 +382,7 @@ body {
   }
 
   line {
-    font-family: \00003138;
+    font-family: \00003175;
   }
 }
 
@@ -299,7 +403,7 @@ body {
   }
 
   line {
-    font-family: \00003149;
+    font-family: \00003186;
   }
 }
 
@@ -318,7 +422,7 @@ body {
   }
 
   line {
-    font-family: \00003158;
+    font-family: \00003195;
   }
 }
 
@@ -344,7 +448,7 @@ body {
   }
 
   line {
-    font-family: \00003175;
+    font-family: \00003212;
   }
 }
 
@@ -368,7 +472,7 @@ body {
   }
 
   line {
-    font-family: \00003188;
+    font-family: \00003225;
   }
 }
 
@@ -394,7 +498,7 @@ body {
   }
 
   line {
-    font-family: \00003205;
+    font-family: \00003242;
   }
 }
 
@@ -412,7 +516,7 @@ body {
   }
 
   line {
-    font-family: \00003210;
+    font-family: \00003247;
   }
 }
 
@@ -431,7 +535,7 @@ body {
   }
 
   line {
-    font-family: \00003219;
+    font-family: \00003256;
   }
 }
 
@@ -465,7 +569,7 @@ body {
     }
 
     line {
-      font-family: \00003246;
+      font-family: \00003283;
     }
 }
 
@@ -483,7 +587,7 @@ body {
     }
 
     line {
-      font-family: \00003254;
+      font-family: \00003291;
     }
 }
 
@@ -498,7 +602,7 @@ body {
     }
 
     line {
-      font-family: \00003258;
+      font-family: \00003295;
     }
 }
 
@@ -512,7 +616,7 @@ body {
     }
 
     line {
-      font-family: \00003262;
+      font-family: \00003299;
     }
 }
 
@@ -530,7 +634,7 @@ body {
     }
 
     line {
-      font-family: \00003272;
+      font-family: \00003309;
     }
 }
 
@@ -546,7 +650,7 @@ body {
     }
 
     line {
-      font-family: \00003277;
+      font-family: \00003314;
     }
 }
 
@@ -562,7 +666,7 @@ body {
     }
 
     line {
-      font-family: \00003282;
+      font-family: \00003319;
     }
 }
 
@@ -577,7 +681,7 @@ body {
     }
 
     line {
-      font-family: \00003287;
+      font-family: \00003324;
     }
 }
 
@@ -592,7 +696,7 @@ body {
     }
 
     line {
-      font-family: \00003291;
+      font-family: \00003328;
     }
 }
 
@@ -610,7 +714,7 @@ body {
     }
 
     line {
-      font-family: \00003301;
+      font-family: \00003338;
     }
 }
 
@@ -627,7 +731,7 @@ body {
     }
 
     line {
-      font-family: \00003307;
+      font-family: \00003344;
     }
 }
 

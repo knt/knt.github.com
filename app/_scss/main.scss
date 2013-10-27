@@ -117,7 +117,44 @@ body {
   float: left;
 }
 
+.social-links {
+  ul {
+    margin: 0;
+    list-style-type: none;
+  }
 
+
+  li {
+    a {
+      text-indent:-9999px;
+      display: block;
+      height: 64px;
+      width: 64px;
+      background-repeat: no-repeat;
+    }
+
+    a:hover {
+      background-color: yellow;
+    }
+  }
+
+  .github a {
+    background-image: url('/img/social_icons/github-64-black.png');
+    background-repeat: no-repeat;
+  }
+
+  .twitter a {
+    background-image: url('/img/social_icons/twitter-64-black.png');
+  }
+
+  .instagram a{
+    background-image: url('/img/social_icons/instagram-64-black.png');
+  }
+
+  .linkedin a {
+    background-image: url('/img/social_icons/linkedin-64-black.png');
+  }
+}
 
 /* ==========================================================================
    Helper classes
