@@ -102,28 +102,20 @@ body {
     padding-left: 20px;
 }
 
-.sidebar {
-    float: left;
-    width: 250px;
-    height: 100%;
-    overflow: hidden;
-    margin-right: 20px;
-    border-right: 1px solid black;
+.container {
+  width: 950px;
+  margin: 20px auto 20px auto;
 }
 
-.content {
+.sidebar {
+  width: 250px;
   float: left;
 }
 
-
-
-
-
-
-
-
-
-
+.content {
+  width: 700px;
+  float: left;
+}
 
 
 

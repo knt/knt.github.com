@@ -25,27 +25,35 @@
 
   </head>
   <body>
-    <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+    <div class="container">
+      <!--[if lt IE 7]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
 
-    <section class="sidebar">
-      <h1>Nichole Treadway</h1>
+      <section class="sidebar">
+        <h1>Nichole Treadway</h1>
 
-      <section class="links">
-        <ul>
-          <li class="github"><a href="https://github.com/knt">Github</a></li>
-          <li class="twitter"><a href="https://twitter.com/kntreadway">Twitter</a></li>
-        </ul>
+        <section class="social-links">
+          <ul>
+            <li class="github">
+              <a href="https://github.com/knt">Github</a>
+            </li>
+            <li class="twitter">
+              <a href="https://twitter.com/kntreadway">Twitter</a>
+            </li>
+            <li class="linkedIn">
+              <a href="https://linkedin.com/in/kntreadway">LinkedIn</a>
+            </li>
+          </ul>
+        </section>
       </section>
-    </section>
 
-    <section class="content">
-      {{ content }}
-    </section>
+      <section class="content">
+        {{ content }}
+      </section>
 
-    {% include scripts.html %}
-    {% include googleanalytics.html %}
-
+      {% include scripts.html %}
+      {% include googleanalytics.html %}
+    </div>
   </body>
 </html>
