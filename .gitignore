@@ -2,3 +2,4 @@
 .sass-cache/
 .tmp/
 dist/
+*.DS_STORE
