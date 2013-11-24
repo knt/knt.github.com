@@ -105,12 +105,14 @@ body {
 }
 
 .container {
+  background-color: #fff;
   width: 950px;
   margin: 20px auto 20px auto;
 }
 
 .sidebar {
-  width: 250px;
+  padding-right: 20px;
+  width: 200px;
   float: left;
 
   header {
@@ -133,7 +135,6 @@ body {
     list-style-type: none;
   }
 
-
   li {
     float: left;
 
@@ -152,7 +153,6 @@ body {
 
   .github a {
     background-image: url('/img/social_icons/github-48-black.png');
-    background-repeat: no-repeat;
   }
 
   .twitter a {
@@ -166,8 +166,25 @@ body {
   .linkedin a {
     background-image: url('/img/social_icons/linkedin-48-black.png');
   }
+
+  .goodreads a {
+    background-image: url('/img/social_icons/goodreads-48-black.png');
+  }
 }
 
+.page-links {
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+}
+
+.instagram {
+  img {
+    border-radius: 6px;
+    padding: 5px;
+  }
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
