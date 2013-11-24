@@ -97,23 +97,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+$background-color: #FCFEF5;
+$top-color: #20C9A6;
+$link: #A62929;
+$link-visited: #A62929;
+$link-hover: #F05B5B;
+
 
 body {
-    // background-color: #F2E8C4;
+    background-color: $background-color;
     padding-left: 20px;
-    border-top: 10px solid #48af75;
+    border-top: 10px solid $top-color;
+    font-family: "Helvetica", "sans-serif";
+    color: #222;
 }
 
+a {
+  font-weight: bold;
+  text-decoration: none;
+  &:link    { color: $link;         }
+  &:visited { color: $link-visited; }
+  &:hover   { color: $link-hover;   }
+}
+
+
 .container {
-  background-color: #fff;
   width: 950px;
   margin: 20px auto 20px auto;
+  padding-top: 20px;
 }
 
 .sidebar {
   padding-right: 20px;
   width: 200px;
   float: left;
+  text-align: center;
 
   header {
     img {
@@ -125,8 +143,12 @@ body {
 }
 
 .content {
-  width: 700px;
+  width: 730px;
   float: left;
+
+  h1 {
+    margin-top: 0;
+  }
 }
 
 .social-links {
