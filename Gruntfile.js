@@ -21,6 +21,14 @@ module.exports = function (grunt) {
       app: 'app',
       dist: 'dist'
     },
+   'gh-pages': {
+     options: {
+       base: 'dist',
+       branch: 'master',
+       repo: 'https://github.com/knt/knt.github.io.git'
+     },
+     src: '**/*'
+   },
     watch: {
       sass: {
         files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
