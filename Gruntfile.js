@@ -25,7 +25,11 @@ module.exports = function (grunt) {
      options: {
        base: 'dist',
        branch: 'master',
-       repo: 'https://github.com/knt/knt.github.io.git'
+       repo: 'https://github.com/knt/knt.github.io.git',
+       user: {
+        name: 'Nichole Treadway',
+        email: 'kntreadway@gmail.com'
+       }
      },
      src: '**/*'
    },

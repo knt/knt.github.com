@@ -97,10 +97,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-$background-color: #FCFEF5;
-$top-color: #20C9A6;
-$link: #A62929;
-$link-visited: #A62929;
+$background-color: #f9fbfd;
+$top-color: #AA3939;
+$link: #3972aa;
+$link-visited: #3972aa;
 $link-hover: #F05B5B;
 
 
@@ -108,7 +108,7 @@ body {
     background-color: $background-color;
     padding-left: 20px;
     border-top: 10px solid $top-color;
-    font-family: "Helvetica", "sans-serif";
+    font-family: "Helvetica Neue", "Helvetica", "sans-serif";
     color: #222;
 }
 
