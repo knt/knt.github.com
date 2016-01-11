@@ -128,10 +128,10 @@ a {
 }
 
 .sidebar {
-  padding-right: 20px;
+  padding-left: 20px;
   width: 200px;
-  float: left;
-  text-align: center;
+  float: right;
+  text-align: right;
 
   header {
     img {
@@ -144,7 +144,7 @@ a {
 
 .content {
   width: 730px;
-  float: left;
+  float: right;
 
   h1 {
     margin-top: 0;
@@ -161,7 +161,7 @@ a {
     float: left;
 
     a {
-      text-indent:-9999px;
+      text-indent:9999px;
       display: inline-block;
       height: 48px;
       width: 48px;
@@ -204,6 +204,13 @@ a {
 .instagram {
   img {
     border-radius: 6px;
+    padding: 5px;
+  }
+}
+
+section.projects {
+  img.iosPhoto {
+    width: 300px;
     padding: 5px;
   }
 }
